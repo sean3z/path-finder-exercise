@@ -14,9 +14,6 @@ x - blocked area.
 o - unblocked area. 
 f - finish. 
 
-Hint: the accesible paths have only a width of 1. 
-
-Can be solved as generic graph traversal problem. But if you take advanage of the hint then you don't need to remember where you have traveled.
 */
 
 var maze = [
