@@ -1,0 +1,38 @@
+<pre id="maze"></pre>
+<script type="text/javascript" src="app.js"></script>
+<style type="text/css">
+    table tr td {
+        border: 1px solid #000;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .block {
+        background-color: black;
+    }
+    
+    .selected {
+        border: 1px solid firebrick;
+        background-color: firebrick;
+        color: firebrick;
+    }
+    
+    .normal {
+        color: white;
+    }
+    
+    .goal {
+        border: 1px solid green;
+        background-color: green;
+        color: green;
+    }
+    
+    button {
+        font-size: 25px;
+    }
+</style>
+
+<button onClick="javascript:robot.direction = 3; robot.Go();">&#65513;</button> 
+<button onClick="javascript:robot.direction = 0; robot.Go();">&#65514;</button> 
+<button onClick="javascript:robot.direction = 1; robot.Go();">&#65515;</button> 
+<button onClick="javascript:robot.direction = 2; robot.Go();">&#65516;</button> 
